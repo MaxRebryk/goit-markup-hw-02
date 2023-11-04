@@ -1,0 +1,91 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #434455;
+}
+header{
+    border: 1px;
+    border-color: #E7E9FC;
+}
+ul{
+    list-style: none;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 2%;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+.web{
+    color: #4D5AE5;
+}
+
+.link{
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.link:hover, :focus{
+    text-decoration: none;
+    color: #404BBF;
+}
+
+.studio {
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.studio:hover,
+:focus {
+    text-decoration: none;
+    color: #404BBF;
+}
+
+.studio:active{
+    text-decoration: underline;
+    color: #404BBF;
+}
+
+.first{
+    color: #FFFFFF;
+    background-color: #2E2F42;
+}
+
+.button{
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #404BBF;
+}
+
+.team{
+    background-color: #F4F4FD;
+}
+
+.team .team-cards{
+    background-color: #FFFFFF;
+    border: 1px;
+    border-color: #E7E9FC;
+}
