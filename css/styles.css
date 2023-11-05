@@ -1,5 +1,5 @@
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif, "Arial", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -35,13 +35,33 @@ h3 {
     color: #2E2F42;
 }
 
+.logo{
+    text-decoration: none;
+    color: #2E2F42;
+    text-transform: uppercase;
+
+}
+
+.logo:hover{
+    color: currentColor;
+}
+
 .web{
+    color: #4D5AE5;
+}
+
+.web:hover{
     color: #4D5AE5;
 }
 
 .link{
     text-decoration: none;
     color: #2E2F42;
+    font-size: 12px;
+    line-height: 1.333;
+    letter-spacing: 4%;
+    font-style: normal;
+    
 }
 
 .link:hover, :focus{
@@ -70,13 +90,17 @@ h3 {
     background-color: #2E2F42;
 }
 
-.button{
+.button-order{
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
+    border: 0px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 4%;
 }
 
-.button:hover{
+.button-order:hover{
     background-color: #404BBF;
 }
 
@@ -88,4 +112,23 @@ h3 {
     background-color: #FFFFFF;
     border: 1px;
     border-color: #E7E9FC;
+}
+
+footer{
+    background-color: #2E2F42;
+}
+
+.footer-text{
+    color: #F4F4FD;
+}
+
+.logo-footer {
+    text-decoration: none;
+    color: #F4F4FD;
+    text-transform: uppercase;
+
+}
+
+.logo-footer:hover {
+    color: #F4F4FD;
 }
