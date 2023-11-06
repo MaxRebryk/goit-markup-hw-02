@@ -12,6 +12,12 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio</title>
@@ -23,28 +29,30 @@
         <!-- Logo -->
 
         <a class="logo" href="./index.html"
-          ><span class="web">Web</span>Studio</a
+          >Web<span class="studio-logo">Studio</span></a
         >
 
         <!-- Navigation -->
 
         <ul class="navigate">
-          <li><a class="studio" href="">Studio</a></li>
+          <li><a class="link" href="./index.html">Studio</a></li>
           <li><a class="link" href="">Portfolio</a></li>
           <li><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="address-contacts">
         <!-- Contact -->
 
         <ul>
           <li>
-            <a class="link" href="mailto:info@devstudio.com"
+            <a class="contacts-item" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="contacts-item" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -54,39 +62,39 @@
       <!-- Section with button -->
 
       <section class="first">
-        <h1>Effective Solutions for Your Business</h1>
+        <h1 class="first-header">Effective Solutions for Your Business</h1>
         <button type="button" class="button-order">Order Service</button>
       </section>
 
       <!-- Section with text -->
 
       <section>
-        <h2>Advantages</h2>
+        <h2 class="advantages-header">Advantages</h2>
         <ul>
           <li>
             <h3>Strategy</h3>
-            <p>
+            <p class="advantages-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
             <h3>Punctuality</h3>
-            <p>
+            <p class="advantages-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
             <h3>Diligence</h3>
-            <p>
+            <p class="advantages-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
             <h3>Technologies</h3>
-            <p>
+            <p class="advantages-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -97,19 +105,19 @@
       <!-- Section with team-photo -->
 
       <section class="team">
-        <h2>Our Team</h2>
-        <ul class="team-cards">
-          <li>
+        <h2 class="team-header">Our Team</h2>
+        <ul>
+          <li class="team-cards">
             <img
               src="./images/1.jpg"
               height="260"
               width="264"
               alt="man with beard"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="team-names">Mark Guerrero</h3>
+            <p class="team-text">Product Designer</p>
           </li>
-          <li>
+          <li class="team-cards">
             <img
               src="./images/2.jpg"
               height="260"
@@ -117,9 +125,9 @@
               alt="happy man"
             />
             <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <p class="team-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-cards">
             <img
               src="./images/3.jpg"
               height="260"
@@ -127,9 +135,9 @@
               alt="cute women"
             />
             <h3>Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
+            <p class="team-text">Marketing</p>
+          </li class="team-cards">
+          <li class="team-cards">
             <img
               src="./images/4.jpg"
               height="260"
@@ -137,7 +145,7 @@
               alt="smiling man"
             />
             <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <p class="team-text">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -146,7 +154,7 @@
     <!-- Portfolio -->
 
     <section>
-      <h2>Our Portfolio</h2>
+      <h2 class="portfolio-header">Our Portfolio</h2>
       <ul>
         <li>
           <img
@@ -155,8 +163,8 @@
             width="360"
             alt="banking app"
           />
-          <h3>Banking App</h3>
-          <p>App</p>
+          <h3 class="portfolio-names">Banking App</h3>
+          <p class="portfolio-text">App</p>
         </li>
         <li>
           <img
@@ -165,8 +173,8 @@
             width="360"
             alt="payment"
           />
-          <h3>Cashless Payment</h3>
-          <p>Marketing</p>
+          <h3 class="portfolio-names">Cashless Payment</h3>
+          <p class="portfolio-text">Marketing</p>
         </li>
         <li>
           <img
@@ -175,12 +183,12 @@
             width="360"
             alt="laptop and phone"
           />
-          <h3>Meditation App</h3>
-          <p>App</p>
+          <h3 class="portfolio-names">Meditation App</h3>
+          <p class="portfolio-text">App</p>
         </li>
         <li>
           <img src="./images/taxi.jpg" height="300" width="360" alt="car" />
-          <h3>Taxi Service</h3>
+          <h3 class="portfolio-names">Taxi Service</h3>
           <p>Marketing</p>
         </li>
         <li>
@@ -190,8 +198,8 @@
             width="360"
             alt="lockscreen"
           />
-          <h3>Screen Illustrations</h3>
-          <p>Design</p>
+          <h3 class="portfolio-names">Screen Illustrations</h3>
+          <p class="portfolio-text">Design</p>
         </li>
         <li>
           <img
@@ -200,18 +208,18 @@
             width="360"
             alt="girl with phone"
           />
-          <h3>Online Courses</h3>
-          <p>Marketing</p>
+          <h3 class="portfolio-names">Online Courses</h3>
+          <p class="portfolio-text">Marketing</p>
         </li>
       </ul>
     </section>
 
     <!-- Footer -->
 
-    <footer>
+    <footer class="footer">
       <a class="logo-footer" href="./index.html"
-        ><span class="web">Web</span>Studio</a
-      >
+          >Web<span class="studio-logo-footer">Studio</span></a
+        >
 
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
